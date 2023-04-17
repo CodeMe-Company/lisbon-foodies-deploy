@@ -10,9 +10,9 @@ const Rating = ({
   filledIcon = StarIcon,
   stars
 }) => {
-  const [activeStar, setActiveStar] = useState(stars);
-  const [hoverActiveStar, setHoverActiveStar] = useState(-1);
-  const [isHovered, setIsHovered] = useState(false);
+  const [activeStar] = useState(stars);
+  const [hoverActiveStar] = useState(-1);
+  const [isHovered] = useState(false);
   const ratingContainerRef = useRef(null);
 
   // const calculateRating = (e) => {
@@ -38,7 +38,7 @@ const Rating = ({
   //   setHoverActiveStar(-1); // Reset to default state
   //   setIsHovered(false);
   // };
-  const EmptyIcon = emptyIcon;
+  // const EmptyIcon = emptyIcon;
   const FilledIcon = filledIcon;
 
   return (

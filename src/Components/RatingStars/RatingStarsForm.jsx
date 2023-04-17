@@ -39,7 +39,7 @@ const RatingForm = ({
     setHoverActiveStar(-1); // Reset to default state
     setIsHovered(false);
   };
-  const EmptyIcon = emptyIcon;
+  // const EmptyIcon = emptyIcon;
   const FilledIcon = filledIcon;
 
   return (

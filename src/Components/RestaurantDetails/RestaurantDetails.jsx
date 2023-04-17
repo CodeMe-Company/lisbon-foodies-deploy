@@ -1,8 +1,9 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useEffect, useState, useContext } from "react";
 import axios from "axios";
 import { useParams } from "react-router-dom";
 import "./RestaurantDetails.css";
-import Star from "./iconStar.png";
+// import Star from "./iconStar.png";
 import AddReview from "../AddReview/AddReview";
 import RatingStars from "../RatingStars/RatingStars";
 import { UserInfoContext } from "../context/UserInfoContext";
