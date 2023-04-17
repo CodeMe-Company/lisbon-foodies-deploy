@@ -1,0 +1,197 @@
+.h1-text {
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+    font-size: 250%;
+}
+
+.main-container {
+    margin-right: 5%;
+}
+
+.restaurant-card {
+    margin-left: 10%;
+    margin-top: 15%;
+    
+}
+
+.images-div {
+    margin-bottom: 12%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-restaurant {
+    border-radius: 20%;
+    border-width: 3px;
+    width: 30%;
+}
+
+.line, .line-bottom {
+    margin-right: 20px;
+    border: 1px solid #455639;
+}
+
+.line-bottom {
+    margin-top: 50px;
+}
+
+h2 {
+    font-family: 'Inria Serif', serif;
+    font-weight: 400;
+    font-size: 140%;
+}
+
+.h2-addReview {
+    font-family: 'Inria Serif', serif;
+        font-weight: 700;
+        font-size: 140%;
+}
+
+
+ .reviews-title {
+    margin-top: 20px;
+    font-weight: 700;
+    font-size: 150%;
+    margin-bottom: 7%;
+    font-family: 'Inria Serif', serif;
+ }
+
+ .ul-reviews {
+    padding: 0;
+    
+ }
+
+ .li-reviews {
+    list-style: none;
+    font-family: 'Inria Serif', serif;
+ }
+
+ .p-text {
+    font-style: italic;
+ }
+
+ .p-rating, .p-name {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Inria Serif', serif;
+ }
+
+ .p-rating {
+    margin-bottom: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+ }
+
+ .rating-stars-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+ }
+
+ .star-icon {
+    width: 5%;
+ }
+
+ .add-review-button {
+    width: 30%;
+    color: black;
+    border-color: #455639;
+    border-radius: 12%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    font-family: 'Inria Serif', serif;
+    font-weight: 700;
+ }
+
+ .bolded{
+    font-weight: bold;
+ }
+
+ .review-form {
+     background-color: #608E3F;
+     border-radius: 20%;
+     width: 75%;
+     font-family: 'Inria Serif', serif;
+ }
+
+  #input-review, #review-message, #label-review {
+    border-radius: 4%;
+    border-color: #455639;
+    align-self: flex-start;
+    margin-left: 10%;
+  }
+
+  #label-name {
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+
+  .review {
+    margin-left: 10%;
+  }
+
+  #input-review {
+    border-style: none;
+  }
+
+@media screen and (min-width:700px) {
+    .h1-text {
+        font-size: 400%;
+        text-align: center;
+        }
+    .img-restaurant {
+        /* margin-right: 8%; */
+        border-radius: 20%;
+        border-width: 3px;
+        width: 30%;
+    }
+
+    .images-div {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .reviews-title {
+        font-size: 200%;
+        margin-top: 7%;
+    }
+
+    .h2-text {
+        font-size: 250%;
+    }
+
+    .li-reviews {
+        font-size: 150%;
+    }
+
+    .star-icon {
+        width: 5%;
+    }
+
+    .add-review-button {
+        width: 30%;
+        margin-left: 25%;
+    }
+
+    .review-form {
+        width: 350px;
+        border-radius: 25%;
+    }
+
+    .h2-addReview {
+        font-size: 200%;
+    }
+
+    #review-message, #label-review, .review, #label-name {
+             margin-left: 25%;
+             font-size: 150%;
+         }
+    #input-review {
+        margin-left: 25%;
+    }
+
+    
+
+}
